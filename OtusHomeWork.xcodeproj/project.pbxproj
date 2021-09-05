@@ -14,6 +14,10 @@
 		BA74B53626DB9FA3007E2E35 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74B53526DB9FA3007E2E35 /* MainView.swift */; };
 		BA74B53826DBA09C007E2E35 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74B53726DBA09C007E2E35 /* ListView.swift */; };
 		BA74B53A26DBA0C0007E2E35 /* ButtonWithModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74B53926DBA0C0007E2E35 /* ButtonWithModal.swift */; };
+		BAEBDF2426E4B9AB00485838 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBDF2326E4B9AB00485838 /* ListModel.swift */; };
+		BAEBDF2726E4C01200485838 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBDF2626E4C01200485838 /* Router.swift */; };
+		BAEBDF2B26E4CB8700485838 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBDF2A26E4CB8700485838 /* CarCell.swift */; };
+		BAEBDF2D26E4D2FD00485838 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBDF2C26E4D2FD00485838 /* CarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BA74B53526DB9FA3007E2E35 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BA74B53726DBA09C007E2E35 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BA74B53926DBA0C0007E2E35 /* ButtonWithModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithModal.swift; sourceTree = "<group>"; };
+		BAEBDF2326E4B9AB00485838 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		BAEBDF2626E4C01200485838 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BAEBDF2A26E4CB8700485838 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		BAEBDF2C26E4D2FD00485838 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,15 @@
 		BA74B52526DB9B90007E2E35 /* OtusHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				BAEBDF2926E4C9B400485838 /* Models */,
+				BAEBDF2826E4C99900485838 /* Screens */,
+				BAEBDF2526E4C00600485838 /* Services */,
 				BA74B52626DB9B90007E2E35 /* OtusHomeWorkApp.swift */,
-				BA74B52826DB9B90007E2E35 /* ContentView.swift */,
 				BA74B52A26DB9B95007E2E35 /* Assets.xcassets */,
 				BA74B52F26DB9B95007E2E35 /* Info.plist */,
 				BA74B52C26DB9B95007E2E35 /* Preview Content */,
-				BA74B53526DB9FA3007E2E35 /* MainView.swift */,
-				BA74B53726DBA09C007E2E35 /* ListView.swift */,
-				BA74B53926DBA0C0007E2E35 /* ButtonWithModal.swift */,
+				BAEBDF2A26E4CB8700485838 /* CarCell.swift */,
+				BAEBDF2C26E4D2FD00485838 /* CarView.swift */,
 			);
 			path = OtusHomeWork;
 			sourceTree = "<group>";
@@ -76,6 +85,33 @@
 				BA74B52D26DB9B95007E2E35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAEBDF2526E4C00600485838 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBDF2626E4C01200485838 /* Router.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BAEBDF2826E4C99900485838 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BA74B52826DB9B90007E2E35 /* ContentView.swift */,
+				BA74B53526DB9FA3007E2E35 /* MainView.swift */,
+				BA74B53726DBA09C007E2E35 /* ListView.swift */,
+				BA74B53926DBA0C0007E2E35 /* ButtonWithModal.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BAEBDF2926E4C9B400485838 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBDF2326E4B9AB00485838 /* ListModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +185,11 @@
 			files = (
 				BA74B53826DBA09C007E2E35 /* ListView.swift in Sources */,
 				BA74B52926DB9B90007E2E35 /* ContentView.swift in Sources */,
+				BAEBDF2D26E4D2FD00485838 /* CarView.swift in Sources */,
 				BA74B53626DB9FA3007E2E35 /* MainView.swift in Sources */,
+				BAEBDF2726E4C01200485838 /* Router.swift in Sources */,
+				BAEBDF2426E4B9AB00485838 /* ListModel.swift in Sources */,
+				BAEBDF2B26E4CB8700485838 /* CarCell.swift in Sources */,
 				BA74B53A26DBA0C0007E2E35 /* ButtonWithModal.swift in Sources */,
 				BA74B52726DB9B90007E2E35 /* OtusHomeWorkApp.swift in Sources */,
 			);

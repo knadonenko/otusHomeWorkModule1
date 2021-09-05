@@ -12,6 +12,8 @@ struct OtusHomeWorkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ListViewModel())
+                .environmentObject(Router())
         }
     }
 }

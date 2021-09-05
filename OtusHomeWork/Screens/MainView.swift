@@ -9,12 +9,13 @@ import SwiftUI
 
 struct MainView: View {
 
-    @EnvironmentObject var profileViewModel: TabViewModel
+    @EnvironmentObject var router: Router
 
     var body: some View {
         VStack {
             Button {
-                profileViewModel.selectedTab = 1
+                router.selectedTab = 1
+                router.needToOpen = true
             } label: {
                 Text("Open second tab")
             }
